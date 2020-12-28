@@ -1,9 +1,9 @@
 AM_CPPFLAGS = \
 	-I$(top_srcdir)/include \
 	-I$(top_srcdir) \
-	-I$(top_srcdir)/libcnary/include
+	-I$(top_srcdir)/libcnary/include \
+	$(GLOBAL_CFLAGS)
 
-AM_CFLAGS = $(GLOBAL_CFLAGS)
 AM_LDFLAGS = $(GLOBAL_LDFLAGS)
 
 lib_LTLIBRARIES = \

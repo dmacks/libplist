@@ -1,6 +1,6 @@
-AM_CFLAGS = \
-	$(GLOBAL_CFLAGS) \
-	-I$(top_srcdir)/include
+AM_CPPFLAGS = \
+	-I$(top_srcdir)/include \
+	$(GLOBAL_CFLAGS)
 
 AM_LDFLAGS =
 

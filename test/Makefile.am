@@ -1,7 +1,7 @@
-AM_CFLAGS = \
-	$(GLOBAL_CFLAGS) \
+AM_CPPFLAGS = \
 	-I$(top_srcdir)/include \
-	-I$(top_srcdir)/libcnary/include
+	-I$(top_srcdir)/libcnary/include \
+	$(GLOBAL_CFLAGS)
 
 AM_LDFLAGS =
 
